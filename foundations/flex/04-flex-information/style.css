@@ -10,6 +10,23 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+.plants-display {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding: 60px;
+}
+
+.plant {
+  /* flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;*/
+  text-align: center; 
+  max-width: 200px;
 }
 
 /* do not edit this footer */
@@ -24,3 +41,7 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution was similar to the intended solution except a bit more complicated. 
+I didn't realise the text-align attribute would also center the images in the flex item - 
+so originally I used flex columns to centre those.  */
